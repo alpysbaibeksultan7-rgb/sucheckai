@@ -1,0 +1,23 @@
+# Dependencies and build artifacts
+node_modules/
+dist/
+build/
+.next/
+.cache/
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# IDE and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
